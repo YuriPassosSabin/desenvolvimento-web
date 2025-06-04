@@ -2,7 +2,7 @@
 
 function descricao(){
  var oldPagina = document.getElementById("paginas");
- var conteiner = document.getElementById("opicoes");
+ var conteiner = document.getElementById("opcoes");
  var newPagina = conteiner.querySelector("div");
 
 
@@ -15,11 +15,10 @@ function descricao(){
         </p>`;
 
  newPagina.innerHTML = content;
- conteiner.replaceChild(newPagina, oldPagina);
 }
 function saudeMental(){
  var oldPagina = document.getElementById("paginas");
- var conteiner = document.getElementById("opicoes");
+ var conteiner = document.getElementById("opcoes");
  var newPagina = conteiner.querySelector("div");
 
 
@@ -36,10 +35,9 @@ function saudeMental(){
         </p>`;
 
  newPagina.innerHTML = content;
- conteiner.replaceChild(newPagina, oldPagina);
 }
 function servico(){
- var conteiner = document.getElementById("opicoes");
+ var conteiner = document.getElementById("opcoes");
  var oldPagina = document.getElementById("paginas");
  var newPagina = conteiner.querySelector("div");
 
@@ -57,7 +55,6 @@ function servico(){
         </p>`;
 
  newPagina.innerHTML = content;
- conteiner.replaceChild(newPagina, oldPagina);
 }
 
 //saude mental.
@@ -87,8 +84,6 @@ function ansiedade(){
          </p>`;
 
  newPagina.innerHTML = content;
- conteiner.replaceChild(newPagina,oldPagina);
-
 }
 function apagar(){
  var conteiner = document.getElementById("bloco-informativo");
@@ -102,7 +97,6 @@ function apagar(){
         </p>`;
 
  newPagina.innerHTML = content;
- conteiner.replaceChild(newPagina,oldPagina);
 }
 function depressao(){
  var conteiner = document.getElementById("bloco-informativo");
@@ -129,7 +123,6 @@ function depressao(){
               </p>`;
 
  newPagina.innerHTML = content;
- conteiner.replaceChild(newPagina,oldPagina);
 }
 function estresse(){
  var conteiner = document.getElementById("bloco-informativo");
@@ -155,6 +148,5 @@ function estresse(){
               </p>`;
 
  newPagina.innerHTML = content;
- conteiner.replaceChild(newPagina,oldPagina);
 }
 //serviço.
