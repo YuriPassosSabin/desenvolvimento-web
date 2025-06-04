@@ -65,16 +65,14 @@ function ansiedade(){
 
          <p class="dicas">Segue 4 dicas práticas que podem melhorar seu bem estar em momentos de ansiedade!</p>
 
-         <!--Dicas com imagens ilustrativas-->
-         <p class="dicas"> <img src="img/pulmao_1.png">Respire! Respire fundo e solte devagar.</p>
+       <!--Dicas com emojis ilustrativos-->
+       <p class="dicas">🧘‍♀️Respire! Respire fundo e solte devagar.</p>
 
-         <p class="dicas"><img src="img/anota.png">Anote! Escrever o que está sentindo ajuda a organizar os pensamentos.</p>
+       <p class="dicas">📝Anote! Escrever o que está sentindo ajuda a organizar os pensamentos.</p>
 
-         <p class="dicas"><img src="img/caminhada.png" alt="">Movimente-se! Uma caminhada leve pode ajudar a liberar a
-            tensão.</p>
+       <p class="dicas">🚶Movimente-se! Uma caminhada leve pode ajudar a liberar a tensão.</p>
 
-         <p class="dicas"> <img src="img/tela.png">Evite excesso de tela! Especialmente antes de dormir.</p>
-
+       <p class="dicas">📵Evite excesso de tela! Especialmente antes de dormir.</p>
          <strong>Você não precisa enfrentar isso sozinho!</strong><br>
          <button onclick="apagar()">apagar</button>
          </p>`;
@@ -104,13 +102,14 @@ function depressao(){
               <p class="dicas">Segue 4 dicas práticas que podem previnir a depressão!</p>
 
               <!--Dicas com imagens ilustrativas-->
-              <p class="dicas"> <img src="img/atividadesFisicas.png" class="icons">Exercícios físicos! Quando você pratica atividade física, seu corpo libera substâncias chamadas endorfinas e serotonina, que são neurotransmissores relacionados à sensação de bem-estar e prazer. </p>
+       
+              <p class="dicas"> 🏃‍♂️Exercícios físicos! Quando você pratica atividade física, seu corpo libera substâncias chamadas endorfinas e serotonina, que são neurotransmissores relacionados à sensação de bem-estar e prazer. </p>
 
-              <p class="dicas"><img src="img/" class="icons">Alimentação! Uma dieta rica em frutas, legumes, verduras e proteínas magras pode contribuir para o bem-estar emocional. </p>
+              <p class="dicas">🍽️Alimentação! Uma dieta rica em frutas, legumes, verduras e proteínas magras pode contribuir para o bem-estar emocional. </p>
 
-              <p class="dicas"><img src="img/" class="icons">Ser grato! A gratidão pode ajudar a mudar a perspectiva e a focar em coisas positivas. </p>
+              <p class="dicas">🙏Ser grato! A gratidão pode ajudar a mudar a perspectiva e a focar em coisas positivas. </p>
 
-              <p class="dicas"> <img src="img/" class="icons">Atividades sociais! Estar perto de amigos, familiares. Dedicar o seu tempo para atividades que lhe fazem bem, como hobbies, leitura, música, para manter a mente saudável.</p>
+              <p class="dicas">🧑‍🤝‍🧑Atividades sociais! Estar perto de amigos, familiares. Dedicar o seu tempo para atividades que lhe fazem bem, como hobbies, leitura, música, para manter a mente saudável.</p>
 
               <strong></strong><br>
               <button onclick="apagar()">apagar</button>
@@ -129,14 +128,13 @@ function estresse(){
               <p class="dicas">Segue 4 dicas práticas que ajudam a lidar melhor com o estresse!</p>
                
               <!--Dicas com imagens ilustrativas-->
-              <p class="dicas"> <img src="img/" class="icons">Exercícios físicos! Quando você pratica atividade física, seu corpo libera substâncias chamadas endorfinas e serotonina, que são neurotransmissores relacionados à sensação de bem-estar e prazer. </p>
+              <p class="dicas">🧘‍♂️Respiração e meditação! Técnicas de respiração e meditar ajudam a acalmar a mente, reduzir a ansiedade e controlar o estresse.</p>
 
-              <p class="dicas"><img src="img/" class="icons">Alimentação! Uma dieta rica em frutas, legumes, verduras e proteínas magras pode contribuir para o bem-estar emocional. </p>
+              <p class="dicas">🏞️Contato com a natureza! Caminhar em parques, praças ou ter momentos ao ar livre ajuda a diminuir a tensão e traz bem-estar.</p>
 
-              <p class="dicas"><img src="img/" class="icons">Ser grato! A gratidão pode ajudar a mudar a perspectiva e a focar em coisas positivas. </p>
+              <p class="dicas">🎨Momentos de lazer! Fazer atividades que você gosta, como ouvir música, desenhar, ler ou praticar um hobby, ajuda a relaxar e aliviar o estresse.</p>
 
-              <p class="dicas"> <img src="img/" class="icons">Atividades sociais! Estar perto de amigos, familiares. Dedicar o seu tempo para atividades que lhe fazem bem, como hobbies, leitura, música, para manter a mente saudável.</p>
-
+              <p class="dicas">🤝Conexões sociais! Conversar, estar com amigos e familiares, trocar ideias e se sentir apoiado faz muita diferença no controle do estresse.</p>
               <button onclick="apagar()">apagar</button>
               </p>`;
 
