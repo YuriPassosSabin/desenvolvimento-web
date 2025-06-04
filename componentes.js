@@ -1,7 +1,6 @@
 //index.
 
 function descricao(){
- var oldPagina = document.getElementById("paginas");
  var conteiner = document.getElementById("opcoes");
  var newPagina = conteiner.querySelector("div");
 
@@ -17,7 +16,6 @@ function descricao(){
  newPagina.innerHTML = content;
 }
 function saudeMental(){
- var oldPagina = document.getElementById("paginas");
  var conteiner = document.getElementById("opcoes");
  var newPagina = conteiner.querySelector("div");
 
@@ -38,7 +36,6 @@ function saudeMental(){
 }
 function servico(){
  var conteiner = document.getElementById("opcoes");
- var oldPagina = document.getElementById("paginas");
  var newPagina = conteiner.querySelector("div");
 
 
@@ -60,7 +57,6 @@ function servico(){
 //saude mental.
 function ansiedade(){
  var conteiner = document.getElementById("bloco-informativo");
- var oldPagina = document.getElementById("paginas");
  var newPagina = conteiner.querySelector("div");
 
  var content=`<p id ="paginas">
@@ -87,7 +83,6 @@ function ansiedade(){
 }
 function apagar(){
  var conteiner = document.getElementById("bloco-informativo");
- var oldPagina = document.getElementById("paginas");
  var newPagina = conteiner.querySelector("div");
 
  var content=`<p id = "paginas">
@@ -100,7 +95,6 @@ function apagar(){
 }
 function depressao(){
  var conteiner = document.getElementById("bloco-informativo");
- var oldPagina = document.getElementById("paginas");
  var newPagina = conteiner.querySelector("div");
 
  var content=`<p id="paginas">
@@ -126,7 +120,6 @@ function depressao(){
 }
 function estresse(){
  var conteiner = document.getElementById("bloco-informativo");
- var oldPagina = document.getElementById("paginas");
  var newPagina = conteiner.querySelector("div");
 
  var content=`<p id="paginas">
