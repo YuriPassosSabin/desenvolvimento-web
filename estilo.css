@@ -1,0 +1,158 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #a3c1e0;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+body {
+    background-color: #f0f8ff;
+}
+
+#links {
+    display: flex;
+    list-style: none;
+    display: inline-block;
+    /*Deixa os links alinhados horizontalmente*/
+    margin: 0 10px;
+}
+
+li a {
+    text-decoration: none;
+    /*Retira o sublinhado dos links da lista*/
+}
+
+li a:hover {
+    /*Acões que ocorrem quando é passado o mouse encima dos links de acesso*/
+    color: #0abfbc;
+}
+
+li {
+    list-style: none;
+}
+
+#logo {
+    display: flex;
+    width: 60px;
+    left: 20px;
+    right: 40px;
+    position: absolute
+}
+
+a {
+    color: black;
+}
+
+
+.ilustração-de-disturbios {
+    width: 250px;
+    border-radius: 8px;
+}
+
+/*Estilização dos blocos que contêm informaçoes*/
+.conteiner {
+    gap: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+#bloco-ansiedade {
+    background-color: #f0f8ff;
+    /* cor de fundo suave */
+    border: 1px solid #a3c1e0;
+    /* borda leve */
+    border-radius: 8px;
+    /* cantos arredondados */
+    padding: 40px;
+    /* espaçamento interno */
+    margin-left: 300px;
+    /* espaçamento da esquerda */
+    margin-top: 50px;
+    /*espaçamento de topo*/
+    max-width: 400px;
+    /* largura máxima */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* sombra para destaque */
+    display: flex;
+    ;
+}
+
+
+#bloco-informativo {
+    background-color: #f0f8ff;
+    /* cor de fundo suave */
+    border: 1px solid #a3c1e0;
+    /* borda leve */
+    border-radius: 8px;
+    /* cantos arredondados */
+    padding: 40px;
+    /* espaçamento interno */
+    margin: 50px;
+    /* espaçamento externo */
+    max-width: 400px;
+    /* largura máxima */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    /* sombra para destaque */
+    display: flex;
+    ;
+}
+
+strong {
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.tela {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.tela p {
+    margin: 0;
+}
+
+button {
+    background-color: #0abfbc;
+    /* verde */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+
+
+/*Estilização do Index*/
+
+#title {
+    font-style: italic;
+    display: flex;
+    font-size: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#descricao {
+    display: flex;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0abfbc;
+    padding: 50px;
+    max-width: fit-content;
+    border-radius: 20px;
+    margin: auto;
+    align-items: center;
+}
+
+#descricao img {
+    width: 400px;
+    padding: 10px;
+    margin-right: 15px;
+}
