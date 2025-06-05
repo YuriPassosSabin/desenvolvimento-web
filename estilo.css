@@ -75,8 +75,8 @@ a {
     /* largura máxima */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     /* sombra para destaque */
-    display: flex;
-    ;
+    display: block;
+    
 }
 
 
@@ -89,14 +89,15 @@ a {
     /* cantos arredondados */
     padding: 40px;
     /* espaçamento interno */
-    margin: 50px;
+    margin: 50px auto;
     /* espaçamento externo */
     max-width: 400px;
     /* largura máxima */
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     /* sombra para destaque */
-    display: flex;
-    ;
+    
+    
+    
 }
 
 strong {
@@ -126,10 +127,32 @@ button {
 
 }
 
+#apresentacao{
+display: flex;
+}
+
+#apresentacao h2{
+    text-align: center;
+}
+
+#apresentacao img{
+   max-width: 400px;
+
+}
+
+.rodape{
+    background-color: #0abfbc;
+    border-radius: 6px;
+}
+
+footer strong{
+    text-align: center;
+}
+
 
 /*Estilização do Index*/
 
-#title {
+.title {
     font-style: italic;
     display: flex;
     font-size: 35px;
@@ -156,3 +179,4 @@ button {
     padding: 10px;
     margin-right: 15px;
 }
+

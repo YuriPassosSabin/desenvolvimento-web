@@ -42,7 +42,7 @@ function servico(){
 
  var content = `<p id ="paginas">
         aqui você pode entrar em contato com o suporte do site<br>
-        para trazer seus feedback ou para contratar um proficional<br>
+        para trazer seus feedback ou para contratar um profissional<br>
         especializado para acompanhamento.<br><br> 
         <a href="saude.html">clique aqui para se direcionar a pagina</a>
         <button onclick="descricao()">apagar</button>
@@ -141,3 +141,15 @@ function estresse(){
  newPagina.innerHTML = content;
 }
 //serviço.
+var comentario =[];
+function comentar(){
+ var coment = document.getElementById("bot-comentario");
+ var campo = document.getElementById("texto-comentario");
+ comentario.push(coment.value);
+ if(campo.innerHTML == ""){
+ campo.innerHTML = coment.value + "<br>";
+ }else{
+ campo.innerHTML = campo.textContent + "<br>" + coment.value + "<br>";
+ }
+coment.value = "";
+}
