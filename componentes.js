@@ -1,3 +1,6 @@
+
+
+
 //index.
 
 function descricao(){
@@ -8,9 +11,9 @@ function descricao(){
 
  var content = `<p id="paginas">
         <button onclick="saudeMental()">saude mental</button>
-        <img src="img/consultaPisicoligo.jpeg" alt="consulta com psicologo" title="saudemental">
+        <img src="img/consultaPisicoligo.jpeg" alt="consulta com psicologo" title="saudemental" height="200px" width="350px">
         <button onclick="servico()">serviços</button>
-        <img src="img/servicos.jpeg" alt="opições de serviço" title="servicos">
+        <img src="img/consulta-saudemental.jpg" alt="opições de serviço" title="servicos" width="350px" height="200px">
         </p>`;
 
  newPagina.innerHTML = content;
@@ -22,14 +25,14 @@ function saudeMental(){
 
 
  var content = `<p id ="paginas">
-        nesta pagina você pode encontrar dicas e soluções para lidar<br>
-        com diversos tipos de problemas que você possa ter envolvendo<br>
-        seu psicologico.<br><br>
+        Nesta página você pode encontrar dicas e soluções para lidar<br>
+        com diversos tipos de problemas que você possa estar envolvendo<br>
+        seu psicológico.<br><br>
         <a href="saude.html">clique aqui para se direcionar a pagina</a>
         <button onclick="descricao()">apagar</button>
         <img src="" alt="" title="">
         <button onclick="servico()">serviços</button>
-        <img src="img/servicos.jpeg" alt="opições de serviço" title="servicos">
+        <img src="img/consulta-saudemental.jpg" alt="opições de serviço" title="servicos" width="350px" height="200px">
         </p>`;
 
  newPagina.innerHTML = content;
@@ -41,14 +44,14 @@ function servico(){
 
 
  var content = `<p id ="paginas">
-        aqui você pode entrar em contato com o suporte do site<br>
+        Aqui você pode entrar em contato com o suporte do site<br>
         para trazer seus feedback ou para contratar um profissional<br>
         especializado para acompanhamento.<br><br> 
         <a href="saude.html">clique aqui para se direcionar a pagina</a>
         <button onclick="descricao()">apagar</button>
         <img src="img/" alt="" title="">
         <button onclick="saudeMental()">saude mental</button>
-        <img src="img/consultaPisicoligo.jpeg" alt="consulta com pisicologo" title="saudeMental">
+        <img src="img/consultaPisicoligo.jpeg" alt="consulta com pisicologo" title="saudeMental" height="200px" width="350px>
         </p>`;
 
  newPagina.innerHTML = content;
@@ -77,7 +80,7 @@ function ansiedade(){
          <button onclick="apagar()">apagar</button>
          </p>`;
 
- newPagina.innerHTML = content;
+ newPagina.innerHTML = content; 
 }
 function apagar(){
  var conteiner = document.getElementById("bloco-informativo");
@@ -152,4 +155,17 @@ function comentar(){
  campo.innerHTML = campo.textContent + "<br>" + coment.value + "<br>";
  }
 coment.value = "";
+}
+var profissional = [
+       {nome: "joão", numero: "909875555"},
+       {nome: "rodrigo", numero: ""},
+       {nome: "amanda", numero: ""}
+];
+var contatos = document.getElementById('contatos');
+for(var i = 0; i < profissional.length; i++){
+   if(contatos.innerHTML == ""){
+    contatos.innerHTML = profissional[i].nome + "<br>";
+   }else{
+    contatos.innerHTML = contatos.textContent + profissional[i].nome + "<br>";
+   }
 }

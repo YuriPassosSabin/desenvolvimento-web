@@ -234,3 +234,18 @@ button {
     padding: 10px;
     margin-right: 15px;
 }
+
+#paginas p{
+    width: 600px;
+}
+/*Estilização dos Serviços*/
+
+#feedback-box{
+    text-align: center;
+}
+#feedback{
+       display: flex;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center;     /* Alinha verticalmente */
+    height: 100vh;           /* Ocupa altura total da tela */
+}
