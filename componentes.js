@@ -175,11 +175,13 @@ var profissional = [
        { nome: "rodrigo", numero: "" },
        { nome: "amanda", numero: "" },
 ];
-let contatos = document.getElementById("contatos");
-let listaContatos = document.createElement("ul");
-for (var i = 0; i < profissional.length; i++) {
+function contatos(){
+ let contatos = document.getElementById("contatos");
+ let listaContatos = document.createElement("ul");
+ for (var i = 0; i < profissional.length; i++) {
        var item = document.createElement("li");
        item.textContent = profissional[i].nome + " - " + profissional[i].numero;
        listaContatos.appendChild(item);
+ }
+ contatos.appendChild(listaContatos);
 }
-contatos.appendChild(listaContatos);
