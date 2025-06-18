@@ -234,10 +234,60 @@ button {
     padding: 10px;
     margin-right: 15px;
 }
-
-#paginas p{
-    width: 600px;
+.blocoSaude {
+  display: flex;
+  margin: 10px auto;
+  max-width: 70%;
+  align-items: center;
+  background-color: #e0f7fa;
+  padding: 15px;
+  border-radius: 10px;
+  gap: 20px; /* Espaço entre imagem e texto */
 }
+
+.blocoSaude img {
+  border-radius: 40px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+
+}
+
+.textoSaude {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.textoSaude p {
+  margin:10px auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #004d40;
+}
+
+.textoSaude a {
+  margin-bottom: 10px;
+  
+  text-decoration: none;
+}
+
+.textoSaude button {
+  margin-right: 5px;
+  padding: 6px 12px;
+  background-color: #00838f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.textoSaude button:hover {
+  background-color: #006064;
+}
+
+
+
+
+
+
 /*Estilização dos Serviços*/
 
 #feedback-box{

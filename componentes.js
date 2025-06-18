@@ -1,68 +1,82 @@
 
 
 
+
 //index.
-
-function descricao(){
- var conteiner = document.getElementById("opcoes");
- var newPagina = conteiner.querySelector("div");
-
+function descricao() {
+       var conteiner = document.getElementById("opcoes");
+       var newPagina = conteiner.querySelector("div");
 
 
- var content = `<p id="paginas">
+
+       var content = `<p id="paginas">
         <button onclick="saudeMental()">saude mental</button>
         <img src="img/consultaPisicoligo.jpeg" alt="consulta com psicologo" title="saudemental" height="200px" width="350px">
         <button onclick="servico()">serviços</button>
         <img src="img/consulta-saudemental.jpg" alt="opições de serviço" title="servicos" width="350px" height="200px">
         </p>`;
 
- newPagina.innerHTML = content;
+       newPagina.innerHTML = content;
 }
-function saudeMental(){
- var conteiner = document.getElementById("opcoes");
- var newPagina = conteiner.querySelector("div");
+function saudeMental() {
+       var conteiner = document.getElementById("opcoes");
+       var newPagina = conteiner.querySelector("div");
 
 
 
- var content = `<p id ="paginas">
-        Nesta página você pode encontrar dicas e soluções para lidar<br>
-        com diversos tipos de problemas que você possa estar envolvendo<br>
-        seu psicológico.<br><br>
-        <a href="saude.html">clique aqui para se direcionar a pagina</a>
+       var content =
+              `<div class = "blocoSaude">
+       <img src="img/consulta-saudemental.jpg" alt="opições de serviço" title="servicos" width="300px">
+       
+       <div class = "textoSaude">
+         <p id ="paginas">
+       
+        Nesta página você pode encontrar dicas e soluções para lidar
+        com diversos tipos de problemas que você possa estar envolvendo
+        seu psicológico.<br>
+        </p>
+        <a href="saude.html">Clique aqui para se direcionar a página!</a>
         <button onclick="descricao()">apagar</button>
-        <img src="" alt="" title="">
         <button onclick="servico()">serviços</button>
-        <img src="img/consulta-saudemental.jpg" alt="opições de serviço" title="servicos" width="350px" height="200px">
-        </p>`;
-
- newPagina.innerHTML = content;
+       </div>
+</div>`
+       newPagina.innerHTML = content;
 }
-function servico(){
- var conteiner = document.getElementById("opcoes");
- var newPagina = conteiner.querySelector("div");
+function servico() {
+       var conteiner = document.getElementById("opcoes");
+       var newPagina = conteiner.querySelector("div");
 
 
 
- var content = `<p id ="paginas">
-        Aqui você pode entrar em contato com o suporte do site<br>
-        para trazer seus feedback ou para contratar um profissional<br>
-        especializado para acompanhamento.<br><br> 
-        <a href="saude.html">clique aqui para se direcionar a pagina</a>
+       var content =
+              `
+<div class = "blocoSaude">
+       <img src="img/consultaPisicoligo.jpeg" alt="consulta com pisicologo"
+        title="saudeMental" width="350px>
+
+  <div class ="textoSaude">
+
+       <p id ="paginas">
+        Aqui você pode entrar em contato com o suporte do site
+        para trazer seus feedback ou para contratar um profissional
+        especializado para acompanhamento.<br>
+       </p>
+
+        <a href="saude.html">Clique aqui para se direcionar a página!</a>
         <button onclick="descricao()">apagar</button>
-        <img src="img/" alt="" title="">
         <button onclick="saudeMental()">saude mental</button>
-        <img src="img/consultaPisicoligo.jpeg" alt="consulta com pisicologo" title="saudeMental" height="200px" width="350px>
-        </p>`;
+  </div>
+</div>`
 
- newPagina.innerHTML = content;
+       newPagina.innerHTML = content;
 }
 
 //saude mental.
-function ansiedade(){
- var conteiner = document.getElementById("bloco-informativo");
- var newPagina = conteiner.querySelector("div");
+function ansiedade() {
+       var conteiner = document.getElementById("bloco-informativo");
+       var newPagina = conteiner.querySelector("div");
 
- var content=`<p id ="paginas">
+       var content = `<p id ="paginas">
          <h2>Problemas com Ansiedade?</h2>
          <img src="img/ansiedade.png" alt="Ansiedade" class="ilustração-de-disturbios">
 
@@ -80,25 +94,25 @@ function ansiedade(){
          <button onclick="apagar()">apagar</button>
          </p>`;
 
- newPagina.innerHTML = content; 
+       newPagina.innerHTML = content;
 }
-function apagar(){
- var conteiner = document.getElementById("bloco-informativo");
- var newPagina = conteiner.querySelector("div");
+function apagar() {
+       var conteiner = document.getElementById("bloco-informativo");
+       var newPagina = conteiner.querySelector("div");
 
- var content=`<p id = "paginas">
+       var content = `<p id = "paginas">
          <button onclick="estresse()">estresse</button>
          <button onclick="ansiedade()">ansiedade</button>
          <button onclick="depressao()">depressão</button>
         </p>`;
 
- newPagina.innerHTML = content;
+       newPagina.innerHTML = content;
 }
-function depressao(){
- var conteiner = document.getElementById("bloco-informativo");
- var newPagina = conteiner.querySelector("div");
+function depressao() {
+       var conteiner = document.getElementById("bloco-informativo");
+       var newPagina = conteiner.querySelector("div");
 
- var content=`<p id="paginas">
+       var content = `<p id="paginas">
               <h2>Prevenção a depressão</h2>
               <img src="img/depressao.jpeg" alt="depressão" class="ilustração-de-disturbios">
 
@@ -118,13 +132,13 @@ function depressao(){
               <button onclick="apagar()">apagar</button>
               </p>`;
 
- newPagina.innerHTML = content;
+       newPagina.innerHTML = content;
 }
-function estresse(){
- var conteiner = document.getElementById("bloco-informativo");
- var newPagina = conteiner.querySelector("div");
+function estresse() {
+       var conteiner = document.getElementById("bloco-informativo");
+       var newPagina = conteiner.querySelector("div");
 
- var content=`<p id="paginas">
+       var content = `<p id="paginas">
               <h2></h2>
               <img src="img/estresse.jpeg" alt="estresse" class="ilustração-de-disturbios">
 
@@ -141,31 +155,31 @@ function estresse(){
               <button onclick="apagar()">apagar</button>
               </p>`;
 
- newPagina.innerHTML = content;
+       newPagina.innerHTML = content;
 }
 //serviço.
-var comentario =[];
-function comentar(){
- var coment = document.getElementById("bot-comentario");
- var campo = document.getElementById("texto-comentario");
- comentario.push(coment.value);
- if(campo.innerHTML == ""){
- campo.innerHTML = coment.value + "<br>";
- }else{
- campo.innerHTML = campo.textContent + "<br>" + coment.value + "<br>";
- }
-coment.value = "";
+var comentario = [];
+function comentar() {
+       var coment = document.getElementById("bot-comentario");
+       var campo = document.getElementById("texto-comentario");
+       comentario.push(coment.value);
+       if (campo.innerHTML == "") {
+              campo.innerHTML = coment.value + "<br>";
+       } else {
+              campo.innerHTML = campo.textContent + "<br>" + coment.value + "<br>";
+       }
+       coment.value = "";
 }
 var profissional = [
-       {nome: "joão", numero: "909875555"},
-       {nome: "rodrigo", numero: ""},
-       {nome: "amanda", numero: ""}
+       { nome: "joão", numero: "909875555" },
+       { nome: "rodrigo", numero: "" },
+       { nome: "amanda", numero: "" },
 ];
-var contatos = document.getElementById('contatos');
-for(var i = 0; i < profissional.length; i++){
-   if(contatos.innerHTML == ""){
-    contatos.innerHTML = profissional[i].nome + "<br>";
-   }else{
-    contatos.innerHTML = contatos.textContent + profissional[i].nome + "<br>";
-   }
+let contatos = document.getElementById("contatos");
+let listaContatos = document.createElement("ul");
+for (var i = 0; i < profissional.length; i++) {
+       var item = document.createElement("li");
+       item.textContent = profissional[i].nome + " - " + profissional[i].numero;
+       listaContatos.appendChild(item);
 }
+contatos.appendChild(listaContatos);
